@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variabel Warna Dasar (Mode Normal) */
+:root {
+  --livora-green: #5D866C;
+  --livora-green-dark: #3F6150;
+  --livora-tan: #C2A68C;
+  --livora-sand: #E6D8C3;
+  --livora-cream: #F5F5F0;
+  --livora-ink: #2B2B26;
+  --livora-honey: #D9A86C;
+  --livora-sky: #8CB4C7;
+}
+
+/* ========================================================= */
+/* 1. UKURAN TEKS */
+/* ========================================================= */
+html { font-size: 18px; transition: font-size 0.3s ease; }
+html[data-text-size="large"] { font-size: 22px !important; }
+html[data-text-size="xlarge"] { font-size: 26px !important; }
+
+/* ========================================================= */
+/* 2. KONTRAS TINGGI */
+/* ========================================================= */
+html[data-contrast="high"] {
+  --livora-green: #4ade80;
+  --livora-green-dark: #166534;
+  --livora-tan: #9ca3af;
+  --livora-sand: #374151;
+  --livora-cream: #000000;
+  --livora-ink: #ffffff;
+  --livora-honey: #fbbf24;
+  --livora-sky: #38bdf8;
+}
+
+/* Paksa background halaman jadi hitam */
+html[data-contrast="high"] body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Paksa kartu dan navbar jadi abu-abu gelap */
+html[data-contrast="high"] .bg-white,
+html[data-contrast="high"] .bg-\[\#FAFAF4\],
+html[data-contrast="high"] .bg-\[\#F4F4EE\] {
+  background-color: #111111 !important;
+  border-color: #333333 !important;
+  color: #ffffff !important;
+}
+
+/* Paksa teks yang tadinya hitam/abu jadi putih */
+html[data-contrast="high"] .text-gray-800,
+html[data-contrast="high"] .text-gray-700,
+html[data-contrast="high"] .text-gray-600,
+html[data-contrast="high"] .text-\[\#1A1C19\],
+html[data-contrast="high"] .text-\[\#2A4A38\] {
+  color: #ffffff !important;
+}
+
+/* ========================================================= */
+/* 3. KURANGI ANIMASI (REDUCED MOTION) */
+/* ========================================================= */
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* ========================================================= */
+/* 4. TOMBOL BESAR (BIG TARGETS) */
+/* ========================================================= */
+html[data-big-targets="on"] button,
+html[data-big-targets="on"] a[role="button"],
+html[data-big-targets="on"] [data-tappable] {
+  min-height: 64px !important;
+  min-width: 64px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+  font-size: 1.1rem !important;
+}
+
+@layer base {
+  body {
+    font-family: 'Nunito', system-ui, sans-serif;
+    background-color: var(--livora-cream);
+    color: var(--livora-ink);
+    min-height: 100vh;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Baloo 2', 'Nunito', system-ui, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  :focus-visible {
+    outline: 3px solid var(--livora-green-dark);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+@layer components {
+  .skip-link {
+    position: absolute; left: -9999px; top: auto;
+    background: var(--livora-green-dark); color: #fff;
+    padding: 12px 16px; border-radius: 8px; z-index: 100;
+  }
+  .skip-link:focus { left: 16px; top: 16px; }
+}
+
+/* Menyembunyikan scrollbar untuk kustom carousel */
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Efek Tombol Timbul (Tactile) */
+.tactile-shadow-sm { box-shadow: 0 4px 0 0 #2a4a38; transition: transform 0.1s ease, box-shadow 0.1s ease; }
+.tactile-shadow-sm:active { transform: translateY(4px); box-shadow: 0 0 0 0 #2a4a38; }
+.tactile-shadow { box-shadow: 0 6px 0 0 #2a4a38; transition: transform 0.1s ease, box-shadow 0.1s ease; }
+.tactile-shadow:active { transform: translateY(6px); box-shadow: 0 0 0 0 #2a4a38; }

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+  <title>Dunia Pasar</title>
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#FFF9EB"/>
+  <!-- Cart body -->
+  <path d="M20 28h4l6 22h22l4-16H26" stroke="#2A4A38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Cart basket fill -->
+  <path d="M28 34h26l-3 12H31z" fill="#FFDF9D" stroke="#785A00" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Items in cart -->
+  <circle cx="34" cy="38" r="3.5" fill="#2A4A38"/>
+  <circle cx="42" cy="37" r="3" fill="#FDCB57" stroke="#785A00" stroke-width="1"/>
+  <circle cx="49" cy="38" r="3.5" fill="#41624F"/>
+  <!-- Wheels -->
+  <circle cx="34" cy="52" r="4" fill="#ffffff" stroke="#2A4A38" stroke-width="2"/>
+  <circle cx="50" cy="52" r="4" fill="#ffffff" stroke="#2A4A38" stroke-width="2"/>
+  <circle cx="34" cy="52" r="1.5" fill="#2A4A38"/>
+  <circle cx="50" cy="52" r="1.5" fill="#2A4A38"/>
+  <!-- Handle -->
+  <path d="M14 24 Q16 20 20 22" stroke="#2A4A38" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+</svg>

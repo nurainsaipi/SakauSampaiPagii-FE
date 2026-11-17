@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+  <title>Dunia Sekolah</title>
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#EAF3F8"/>
+  <!-- Building body -->
+  <rect x="16" y="34" width="48" height="30" rx="3" fill="#ffffff" stroke="#2A4A38" stroke-width="2.5"/>
+  <!-- Roof / Pediment -->
+  <rect x="12" y="30" width="56" height="8" rx="3" fill="#2A4A38"/>
+  <!-- Flag pole -->
+  <line x1="40" y1="12" x2="40" y2="30" stroke="#2A4A38" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Flag -->
+  <polygon points="40,13 54,19 40,25" fill="#FDCB57"/>
+  <!-- Door center -->
+  <rect x="34" y="50" width="12" height="14" rx="2" fill="#FDCB57" stroke="#785A00" stroke-width="1.5"/>
+  <!-- Windows row -->
+  <rect x="20" y="38" width="9" height="8" rx="1.5" fill="#C1E8FF" stroke="#2A4A38" stroke-width="1.5"/>
+  <rect x="36" y="38" width="9" height="8" rx="1.5" fill="#C1E8FF" stroke="#2A4A38" stroke-width="1.5"/>
+  <rect x="52" y="38" width="9" height="8" rx="1.5" fill="#C1E8FF" stroke="#2A4A38" stroke-width="1.5"/>
+  <!-- Steps -->
+  <rect x="30" y="62" width="20" height="3" rx="1" fill="#C1C8C1"/>
+</svg>

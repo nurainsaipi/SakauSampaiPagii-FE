@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+  <title>Daun tenang</title>
+  <circle cx="40" cy="40" r="38" fill="#EAF5EC"/>
+  <!-- Main leaf -->
+  <path d="M40 65 Q20 50 22 30 Q30 14 40 14 Q50 14 58 30 Q60 50 40 65z" fill="#2A4A38"/>
+  <!-- Leaf vein center -->
+  <line x1="40" y1="62" x2="40" y2="18" stroke="#C6EBD3" stroke-width="2" stroke-linecap="round"/>
+  <!-- Leaf veins left -->
+  <path d="M40 32 Q32 30 28 26" stroke="#C6EBD3" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M40 40 Q30 38 26 34" stroke="#C6EBD3" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M40 48 Q31 47 28 44" stroke="#C6EBD3" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Leaf veins right -->
+  <path d="M40 32 Q48 30 52 26" stroke="#C6EBD3" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M40 40 Q50 38 54 34" stroke="#C6EBD3" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <path d="M40 48 Q49 47 52 44" stroke="#C6EBD3" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Stem -->
+  <path d="M40 65 Q38 70 36 72" stroke="#785A00" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Smaller accent leaf -->
+  <path d="M36 72 Q28 68 30 60 Q34 56 38 62z" fill="#41624F"/>
+</svg>

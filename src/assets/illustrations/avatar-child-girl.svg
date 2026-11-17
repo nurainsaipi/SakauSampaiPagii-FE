@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+  <title>Karakter anak perempuan</title>
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#EAF3F8"/>
+  <!-- Body / Blouse -->
+  <rect x="22" y="52" width="36" height="18" rx="8" fill="#C1E8FF"/>
+  <!-- Shirt detail -->
+  <circle cx="40" cy="56" r="2" fill="#2A4A38"/>
+  <circle cx="40" cy="62" r="2" fill="#2A4A38"/>
+  <!-- Neck -->
+  <rect x="36" y="46" width="8" height="8" rx="4" fill="#FDCB57" opacity="0.8"/>
+  <!-- Head -->
+  <circle cx="40" cy="34" r="16" fill="#FDCB57" opacity="0.9"/>
+  <!-- Hair (longer) -->
+  <path d="M24 30 Q22 42 24 54 Q28 50 28 44 Q28 20 40 18 Q52 18 52 44 Q52 50 56 54 Q58 42 56 30 Q54 18 40 18 Q26 18 24 30z" fill="#2A4A38"/>
+  <!-- Hair top highlight -->
+  <path d="M28 20 Q40 14 52 20 Q48 16 40 16 Q32 16 28 20z" fill="#424843"/>
+  <!-- Eyes -->
+  <circle cx="34" cy="33" r="2.5" fill="#2A4A38"/>
+  <circle cx="46" cy="33" r="2.5" fill="#2A4A38"/>
+  <!-- Eye shine -->
+  <circle cx="35" cy="32" r="1" fill="white"/>
+  <circle cx="47" cy="32" r="1" fill="white"/>
+  <!-- Smile -->
+  <path d="M34 39 Q40 44 46 39" stroke="#2A4A38" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Ears -->
+  <circle cx="24" cy="34" r="4" fill="#FDCB57" opacity="0.9"/>
+  <circle cx="56" cy="34" r="4" fill="#FDCB57" opacity="0.9"/>
+  <!-- Hair bow / clip -->
+  <path d="M46 20 Q52 16 54 22 Q52 24 48 22 Q52 26 50 30 Q46 26 48 22z" fill="#FDCB57"/>
+</svg>

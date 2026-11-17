@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+  <title>Karakter anak laki-laki</title>
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#EAF5EC"/>
+  <!-- Body / Shirt -->
+  <rect x="24" y="52" width="32" height="18" rx="8" fill="#2A4A38"/>
+  <!-- Collar detail -->
+  <path d="M36 52 L40 58 L44 52" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+  <!-- Neck -->
+  <rect x="36" y="46" width="8" height="8" rx="4" fill="#FDCB57" opacity="0.8"/>
+  <!-- Head -->
+  <circle cx="40" cy="34" r="16" fill="#FDCB57" opacity="0.9"/>
+  <!-- Hair -->
+  <path d="M24 30 Q26 18 40 18 Q54 18 56 30 Q52 20 40 20 Q28 20 24 30z" fill="#785A00"/>
+  <!-- Eyes -->
+  <circle cx="34" cy="33" r="2.5" fill="#2A4A38"/>
+  <circle cx="46" cy="33" r="2.5" fill="#2A4A38"/>
+  <!-- Eye shine -->
+  <circle cx="35" cy="32" r="1" fill="white"/>
+  <circle cx="47" cy="32" r="1" fill="white"/>
+  <!-- Smile -->
+  <path d="M34 39 Q40 44 46 39" stroke="#2A4A38" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Ears -->
+  <circle cx="24" cy="34" r="4" fill="#FDCB57" opacity="0.9"/>
+  <circle cx="56" cy="34" r="4" fill="#FDCB57" opacity="0.9"/>
+</svg>

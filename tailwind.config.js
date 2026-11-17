@@ -1,0 +1,58 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      colors: {
+        'livora-green': '#2a4a38',
+        'livora-green-dark': '#1e3629',
+        'livora-tan': '#fdcb57',
+        'livora-sand': '#f4f4ee',
+        'livora-cream': '#fafaf4',
+        'livora-ink': '#1a1c19',
+        'livora-honey': '#f0c04d',
+        'livora-sky': '#c1e8ff',
+        'primary': '#2a4a38',
+        'primary-container': '#41624f',
+        'primary-fixed': '#c6ebd3',
+        'secondary': '#785a00',
+        'secondary-fixed': '#ffdf9d',
+        'secondary-fixed-dim': '#f0c04d',
+        'secondary-container': '#fdcb57',
+        'tertiary': '#004a63',
+        'tertiary-fixed': '#c1e8ff',
+        'tertiary-fixed-dim': '#92ceef',
+        'surface': '#fafaf4',
+        'surface-container': '#eeeee8',
+        'surface-container-low': '#f4f4ee',
+        'surface-container-lowest': '#ffffff',
+        'on-surface': '#1a1c19',
+        'on-surface-variant': '#424843',
+        'outline-variant': '#c1c8c1',
+        'on-primary': '#ffffff',
+        'on-primary-container': '#b7dcc4',
+        'on-secondary': '#ffffff',
+        'on-secondary-container': '#735500',
+        'on-tertiary': '#ffffff',
+        'on-tertiary-container': '#a0dcfd',
+        'error': '#ba1a1a',
+      },
+      fontFamily: {
+        sans: ['"Nunito Sans"', 'system-ui', 'sans-serif'],
+        display: ['"Baloo 2"', 'system-ui', 'sans-serif'],
+        epilogue: ['Epilogue', 'system-ui', 'sans-serif'],
+      },
+      borderRadius: {
+        'DEFAULT': '1rem',
+        'lg': '2rem',
+        'xl': '3rem',
+        'full': '9999px',
+      },
+      boxShadow: {
+        'tactile-sm': '0 4px 0 0 #2a4a38',
+        'tactile': '0 6px 0 0 #2a4a38',
+      }
+    },
+  },
+  plugins: [],
+};

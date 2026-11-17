@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <title>Meja belajar</title>
+  <!-- Table top surface -->
+  <rect x="4" y="16" width="40" height="6" rx="3" fill="#785A00"/>
+  <!-- Table top highlight -->
+  <rect x="4" y="16" width="40" height="2" rx="2" fill="#A07820"/>
+  <!-- Left leg -->
+  <rect x="10" y="22" width="5" height="22" rx="2.5" fill="#2A4A38"/>
+  <!-- Right leg -->
+  <rect x="33" y="22" width="5" height="22" rx="2.5" fill="#2A4A38"/>
+  <!-- Cross bar / support -->
+  <rect x="10" y="36" width="28" height="4" rx="2" fill="#41624F"/>
+  <!-- Book on table -->
+  <rect x="16" y="10" width="14" height="8" rx="2" fill="#2A4A38"/>
+  <rect x="18" y="11" width="10" height="6" rx="1" fill="#FAFAF4"/>
+  <line x1="20" y1="14" x2="26" y2="14" stroke="#C1C8C1" stroke-width="1" stroke-linecap="round"/>
+</svg>

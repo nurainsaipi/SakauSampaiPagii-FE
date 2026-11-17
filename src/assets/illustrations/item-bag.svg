@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+  <title>Tas sekolah</title>
+  <!-- Bag body -->
+  <rect x="8" y="18" width="32" height="24" rx="6" fill="#2A4A38"/>
+  <!-- Bag top flap -->
+  <rect x="12" y="12" width="24" height="12" rx="4" fill="#41624F"/>
+  <!-- Handle -->
+  <path d="M18 12 Q18 6 24 6 Q30 6 30 12" stroke="#2A4A38" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Front pocket -->
+  <rect x="14" y="26" width="20" height="12" rx="4" fill="#41624F"/>
+  <!-- Pocket zipper -->
+  <line x1="18" y1="26" x2="30" y2="26" stroke="#FDCB57" stroke-width="2" stroke-linecap="round"/>
+  <!-- Zipper pull -->
+  <circle cx="30" cy="26" r="2" fill="#FDCB57"/>
+  <!-- Main zipper -->
+  <line x1="12" y1="18" x2="36" y2="18" stroke="#785A00" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

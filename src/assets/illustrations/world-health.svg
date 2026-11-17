@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none" aria-hidden="true">
+  <title>Dunia Kesehatan</title>
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="#EAF3F8"/>
+  <!-- Building -->
+  <rect x="18" y="30" width="44" height="34" rx="4" fill="#ffffff" stroke="#2A4A38" stroke-width="2.5"/>
+  <!-- Roof -->
+  <rect x="14" y="26" width="52" height="8" rx="4" fill="#2A4A38"/>
+  <!-- Cross (medical) -->
+  <rect x="34" y="18" width="12" height="32" rx="3" fill="#ffffff" stroke="#2A4A38" stroke-width="2"/>
+  <rect x="26" y="26" width="28" height="12" rx="3" fill="#ffffff" stroke="#2A4A38" stroke-width="2"/>
+  <rect x="36" y="20" width="8" height="28" rx="2" fill="#C1E8FF"/>
+  <rect x="28" y="28" width="24" height="8" rx="2" fill="#C1E8FF"/>
+  <!-- Door -->
+  <rect x="34" y="50" width="12" height="14" rx="2" fill="#FDCB57" stroke="#785A00" stroke-width="1.5"/>
+  <!-- Windows -->
+  <rect x="22" y="36" width="8" height="8" rx="1.5" fill="#C1E8FF" stroke="#004A63" stroke-width="1.5"/>
+  <rect x="50" y="36" width="8" height="8" rx="1.5" fill="#C1E8FF" stroke="#004A63" stroke-width="1.5"/>
+</svg>
